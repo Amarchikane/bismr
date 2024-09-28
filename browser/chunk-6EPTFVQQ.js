@@ -1,0 +1,1 @@
+import{e as t}from"./chunk-ONYOCLEU.js";import"./chunk-FU4Q2UVZ.js";import{L as e,V as r}from"./chunk-EV62E5VV.js";var m=[{path:"",loadComponent:()=>import("./chunk-BN3XHV7V.js").then(o=>o.HeaderComponent)}],i=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=r({type:o});static \u0275inj=e({imports:[t.forChild(m),t]})};export{i as HomeRoutingModule};
