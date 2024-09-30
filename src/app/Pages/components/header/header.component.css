@@ -1,0 +1,47 @@
+    .fun-facts {
+      background-color: #000000;
+      /* Dark background */
+      padding: 50px 0;
+    }
+
+    .single-fun {
+      background-color: #1f1f1f;
+      /* Slightly darker background */
+      border-radius: 10px;
+      /* Add rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      /* Add a subtle shadow */
+      transition: 0.3s ease-in-out;
+    }
+
+    .single-fun:hover {
+      transform: translateY(-5px);
+      /* Add a slight hover effect */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      /* Increase shadow on hover */
+    }
+
+    .single-fun i {
+      color: #007bff;
+      /* Primary color for icons */
+    }
+
+    .single-fun .content {
+      text-align: center;
+    }
+
+    .single-fun .counter {
+      font-size: 28px;
+      /* Increase counter font size */
+      font-weight: bold;
+      color: #fff;
+      /* White color for counter */
+    }
+
+    .single-fun p {
+      color: #999;
+      /* Lighter gray paragraph color */
+      margin-bottom: 0;
+    }
+
+
