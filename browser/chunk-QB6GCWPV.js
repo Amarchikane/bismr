@@ -1,1 +1,0 @@
-import{e as t}from"./chunk-ONYOCLEU.js";import"./chunk-FU4Q2UVZ.js";import{L as e,V as i}from"./chunk-EV62E5VV.js";var m=[{path:"",loadComponent:()=>import("./chunk-YO7JNZ3N.js").then(o=>o.PageNotFoundComponent)}],r=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=i({type:o});static \u0275inj=e({imports:[t.forChild(m),t]})};export{r as PagenotfoundModule};
