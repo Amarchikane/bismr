@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './feautes.component.css'
 })
 export class FeautesComponent {
-
 }
+

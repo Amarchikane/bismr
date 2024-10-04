@@ -205,3 +205,19 @@
 /*==========================
 	End Portfolio CSS
 ============================*/
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.zoomIn-content {
+
+  animation: zoomIn 0.5s ease-in-out;
+}
