@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{n as t}from"./chunk-4TL27K7E.mjs";import"./chunk-BGBOD5EE.mjs";import{J as e,T as i}from"./chunk-QPWC3QPD.mjs";import"./chunk-5XUXGTUW.mjs";var s=[{path:"",loadComponent:()=>import("./chunk-KVSJ4IOU.mjs").then(o=>o.NewsAndBlogComponent)}],r=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=i({type:o});static \u0275inj=e({imports:[t.forChild(s),t]})};export{r as NewsAndBlogRoutingModule};

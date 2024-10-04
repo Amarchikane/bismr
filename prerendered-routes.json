@@ -1,0 +1,12 @@
+{
+  "routes": [
+    "/about",
+    "/career",
+    "/contact",
+    "/Home",
+    "/news",
+    "/sopporting-services",
+    "/speciality-services",
+    "/super-speciality"
+  ]
+}

@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{Oa as o,Pa as s,S as t,Va as a,Ya as p}from"./chunk-QPWC3QPD.mjs";import"./chunk-5XUXGTUW.mjs";var l=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-news-and-blog"]],standalone:!0,features:[p],decls:2,vars:0,template:function(e,m){e&1&&(o(0,"p"),a(1,"news-and-blog works!"),s())}})};export{l as NewsAndBlogComponent};
