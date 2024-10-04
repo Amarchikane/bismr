@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{n as t}from"./chunk-4TL27K7E.mjs";import"./chunk-BGBOD5EE.mjs";import{J as e,T as i}from"./chunk-QPWC3QPD.mjs";import"./chunk-5XUXGTUW.mjs";var m=[{path:"",loadComponent:()=>import("./chunk-3CUNPTKI.mjs").then(o=>o.ContactComponent)}],r=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=i({type:o});static \u0275inj=e({imports:[t.forChild(m),t]})};export{r as ContactRoutingModule};

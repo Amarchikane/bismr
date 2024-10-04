@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{Oa as n,Pa as i,S as p,Va as a,Ya as o}from"./chunk-QPWC3QPD.mjs";import"./chunk-5XUXGTUW.mjs";var s=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=p({type:t,selectors:[["app-super-speciality"]],standalone:!0,features:[o],decls:2,vars:0,template:function(e,c){e&1&&(n(0,"p"),a(1,"super-speciality works!"),i())}})};export{s as SuperSpecialityComponent};
