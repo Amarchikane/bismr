@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{a as m}from"./chunk-ZCPB5J36.mjs";import{Oa as n,Pa as a,Qa as p,S as o,Va as i,Ya as s}from"./chunk-QPWC3QPD.mjs";import"./chunk-5XUXGTUW.mjs";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-about"]],standalone:!0,features:[s],decls:3,vars:0,template:function(e,l){e&1&&(n(0,"p"),i(1,"about works!"),a(),p(2,"app-slider3d"))},dependencies:[m]})};export{r as AboutComponent};
