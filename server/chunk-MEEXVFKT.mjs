@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{Oa as s,Pa as n,S as i,Va as a,Ya as o}from"./chunk-QPWC3QPD.mjs";import"./chunk-5XUXGTUW.mjs";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=i({type:t,selectors:[["app-speciality-services"]],standalone:!0,features:[o],decls:2,vars:0,template:function(e,r){e&1&&(s(0,"p"),a(1,"speciality-services works!"),n())}})};export{c as SpecialityServicesComponent};
