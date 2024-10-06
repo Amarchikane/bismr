@@ -78,5 +78,5 @@
 
   animation: zoomIn 0.5s ease-in-out;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 60%;
 }

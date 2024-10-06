@@ -2,7 +2,7 @@ export const Homepage ={
 
 sliderData: [
     {
-      image: './img/slider.jpg',
+      image: './img/slider2.png',
       title: 'We Provide Medical Services That You Can Trust!',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.',
       button1Text: 'Get Appointment',
@@ -10,7 +10,7 @@ sliderData: [
       slidenumber: '0'
     },
     {
-      image: './img/slider2.jpg',
+      image: './img/slider1.png',
       title: 'Another Great Slide',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       button1Text: 'Contact Us',
