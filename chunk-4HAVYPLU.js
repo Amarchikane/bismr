@@ -1,1 +1,0 @@
-import{Oa as n,Pa as s,V as o,Va as p,Ya as i}from"./chunk-266OR6RL.js";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-sopporting-services"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,c){e&1&&(n(0,"p"),p(1,"sopporting-services works!"),s())}})};export{r as SopportingServicesComponent};
