@@ -1,0 +1,1 @@
+import{Ma as s,Na as n,Ta as a,V as i,Wa as o}from"./chunk-QSOJR36A.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=i({type:t,selectors:[["app-speciality-services"]],standalone:!0,features:[o],decls:2,vars:0,template:function(e,r){e&1&&(s(0,"p"),a(1,"speciality-services works!"),n())}})};export{c as SpecialityServicesComponent};

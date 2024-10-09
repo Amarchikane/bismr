@@ -1,0 +1,1 @@
+import{g as t}from"./chunk-LAQH27ZU.js";import{M as e,W as i}from"./chunk-QSOJR36A.js";var m=[{path:"",loadComponent:()=>import("./chunk-EIUJYEJU.js").then(o=>o.HomeComponent)}],r=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=i({type:o});static \u0275inj=e({imports:[t.forChild(m),t]})};export{r as a};
