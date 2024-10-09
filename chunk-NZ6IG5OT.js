@@ -1,0 +1,1 @@
+var e={Home:"Home",about:"about",contact:"contact",news:"news",sopportingServices:"sopporting-services",specialityservices:"speciality-services",superspeciality:"super-speciality",faq:"faq",career:"career"};export{e as a};

@@ -1,0 +1,1 @@
+import{g as t}from"./chunk-PRDBFUWB.js";import"./chunk-YQ3URTAM.js";import{M as e,W as r}from"./chunk-QZYM7BUZ.js";var m=[{path:"",loadComponent:()=>import("./chunk-AM6YJISF.js").then(o=>o.CareerComponent)}],i=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=r({type:o});static \u0275inj=e({imports:[t.forChild(m),t]})};export{i as CareerRoutingModule};

@@ -1,1 +1,0 @@
-import{Ma as r,Na as a,Ta as o,V as n,Wa as p}from"./chunk-QSOJR36A.js";var s=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-career"]],standalone:!0,features:[p],decls:2,vars:0,template:function(e,i){e&1&&(r(0,"p"),o(1,"career works!"),a())}})};export{s as CareerComponent};
