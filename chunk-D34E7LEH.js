@@ -1,0 +1,1 @@
+import{g as t}from"./chunk-BHI4DY2O.js";import"./chunk-G6AUNIPG.js";import{M as e,W as i}from"./chunk-XZ42L3J3.js";var m=[{path:"",loadComponent:()=>import("./chunk-AXM5F3WH.js").then(o=>o.ContactComponent)}],r=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=i({type:o});static \u0275inj=e({imports:[t.forChild(m),t]})};export{r as ContactRoutingModule};
