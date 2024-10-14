@@ -1,1 +1,0 @@
-import{a,b as m}from"./chunk-A4SHKXJH.js";import"./chunk-FRDJE5OA.js";import{$a as p,Pa as n,V as t}from"./chunk-KDC6G2FN.js";var s=class o{static \u0275fac=function(e){return new(e||o)};static \u0275cmp=t({type:o,selectors:[["app-about"]],standalone:!0,features:[p],decls:1,vars:0,template:function(e,r){e&1&&n(0,"app-choose-us")},dependencies:[a,m]})};export{s as AboutComponent};
