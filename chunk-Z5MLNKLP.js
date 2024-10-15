@@ -1,0 +1,1 @@
+import{$a as a,Pa as o,Qa as s,V as t,cb as p}from"./chunk-WGELXTUA.js";var l=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-news-and-blog"]],standalone:!0,features:[p],decls:2,vars:0,template:function(e,m){e&1&&(o(0,"p"),a(1,"news-and-blog works!"),s())}})};export{l as NewsAndBlogComponent};
