@@ -1,1 +1,0 @@
-import{Ua as o,Va as s,Y as t,eb as a,lb as p}from"./chunk-2PS5DWIT.js";var l=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-news-and-blog"]],standalone:!0,features:[p],decls:2,vars:0,template:function(e,m){e&1&&(o(0,"p"),a(1,"news-and-blog works!"),s())}})};export{l as NewsAndBlogComponent};
