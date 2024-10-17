@@ -1,0 +1,1 @@
+import{i as t}from"./chunk-CUMNS5S3.js";import"./chunk-CJG3EAOS.js";import{P as e,Z as i}from"./chunk-L5B4BPCN.js";var m=[{path:"",loadComponent:()=>import("./chunk-7RI54EI7.js").then(o=>o.AboutComponent)}],r=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=i({type:o});static \u0275inj=e({imports:[t.forChild(m),t]})};export{r as AboutRoutingModule};
