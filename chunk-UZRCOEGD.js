@@ -1,0 +1,1 @@
+import{g as r,i as e,l as n,ra as c,ua as f}from"./chunk-XAMNOJDZ.js";var a=class o{constructor(i){i.events.pipe(r(t=>t instanceof c)).subscribe(()=>{typeof window<"u"&&window.scrollTo(0,0)})}static \u0275fac=function(t){return new(t||o)(n(f))};static \u0275prov=e({token:o,factory:o.\u0275fac,providedIn:"root"})};export{a};
