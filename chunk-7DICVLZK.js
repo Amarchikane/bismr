@@ -1,1 +1,0 @@
-import{j as e,n as i,ya as t}from"./chunk-XAMNOJDZ.js";var m=[{path:"",loadComponent:()=>import("./chunk-QRBDNAW5.js").then(o=>o.PagenotfoundComponent)}],n=class o{static \u0275fac=function(r){return new(r||o)};static \u0275mod=i({type:o});static \u0275inj=e({imports:[t.forChild(m),t]})};export{n as PagenotfoundRoutingModule};
