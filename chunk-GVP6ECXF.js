@@ -1,1 +1,0 @@
-import{j as e,n as i,ya as t}from"./chunk-XAMNOJDZ.js";var s=[{path:"",loadComponent:()=>import("./chunk-WMJV7YRY.js").then(o=>o.NewsAndBlogComponent)}],r=class o{static \u0275fac=function(n){return new(n||o)};static \u0275mod=i({type:o});static \u0275inj=e({imports:[t.forChild(s),t]})};export{r as NewsAndBlogRoutingModule};
