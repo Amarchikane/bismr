@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-
+import { RautersConstants } from '../../../core/constants/RauterConstants';
+import { ScrollToTopService } from '../../../core/services/scroll-to-top.service';
 @Component({
   selector: 'app-pagenotfound',
   standalone: true,
@@ -9,5 +10,8 @@ import { RouterLink } from '@angular/router';
   styleUrl: './pagenotfound.component.css'
 })
 export class PagenotfoundComponent {
+RautersConstants= RautersConstants;
+ constructor(scrollToTopService: ScrollToTopService) {
 
+  }
 }

@@ -6,6 +6,10 @@ const routes: Routes = [
     path: '',
     loadComponent: () => import('../../components/super-speciality/super-speciality.component').then(c=> c.SuperSpecialityComponent)
 
+  },
+  {
+    path: ':SuperSpeciality',
+    loadComponent: () => import('../../components/super-speciality-options/super-speciality-options.component').then(c=> c.SuperSpecialityOptionsComponent)
   }
 ];
 

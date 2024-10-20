@@ -1,0 +1,26 @@
+<section class="why-choose section  " style="overflow-x: hidden;">
+  <div class="container">
+  <div class="row">
+
+    <div class="col-lg-6 col-12">
+      <!-- Start Choose Rights -->
+      <div class="choose-right" style="background-image: url(./img/IMG_2890.jpg);min-height: 310px;">
+      </div>
+      <!-- End Choose Rights -->
+    </div>
+    <div class="col-lg-6 col-12">
+      <!-- Start Choose Left -->
+      <div class="choose-left">
+        <h1 class="primaryh1">Government Schemes and Organizations</h1>
+        <div class="row">
+          <div class="col">
+            <ul class="list" style="list-style-type: none;">
+              <li *ngFor="let item of Schems.detals; let i = index"><i class="fa fa-caret-right"></i>{{item.title}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>

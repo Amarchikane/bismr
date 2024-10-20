@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Homepage } from '../../../core/constants/constsnts';
+import { ScrollToTopService } from '../../../core/services/scroll-to-top.service';
 
 @Component({
   selector: 'app-slider',
@@ -15,4 +16,7 @@ isActiveSlide(index: number): any {
 return index === this.activeSlideIndex;
 }
   public slides = Homepage.sliderData
+  constructor(scrollToTopService: ScrollToTopService) {
+
+  }
 }

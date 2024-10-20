@@ -1,21 +1,29 @@
-<div class="zoomIn-content" >
+<div class="zoomIn-content" style="overflow-x: hidden;" >
 <div class="bodyStyle">
   <div class="banner">
-      <div class="content  d-none d-md-block">
+      <div class="content  d-none d-md-block" >
         <div class="model"></div>
       </div>
-      <h1>SpeciaLity Services</h1>
-    <div class="slider" style="--quantity: 10">
-      <div class="item" style="--position: 1"><img ngSrc="img/IMG_2861.jpg" style="position: relative" fill></div>
-      <div class="item" style="--position: 2"><img ngSrc="img/slider3d2.jpg" alt="" style="position: relative" fill></div>
-      <div class="item" style="--position: 3"><img ngSrc="img/IMG_2890.jpg" alt="" style="position: relative" fill></div>
-      <div class="item" style="--position: 4"><img ngSrc="img/slider01.jpg" alt="" style="position: relative" fill></div>
-      <div class="item" style="--position: 5"><img ngSrc="img/IMG_2902.jpg" alt="" style="position: relative" fill></div>
-      <div class="item" style="--position: 6"><img ngSrc="img/IMG_2904.jpg" alt="" style="position: relative" fill></div>
-      <div class="item" style="--position: 7"><img ngSrc="img/IMG_2934.jpg" alt="" style="position: relative" fill></div>
-      <div class="item" style="--position: 8"><img ngSrc="img/blog2.jpg" alt="" style="position: relative" fill></div>
-      <div class="item" style="--position: 9"><img ngSrc="img/blog3.jpg" alt="" style="position: relative" fill></div>
-      <div class="item" style="--position: 10"><img ngSrc="img/blog2.jpg" alt="" style="position: relative" fill></div>
+      <h1 class="primaryh1"  routerLink="/{{RautersConstants.specialityservices}}" routerLinkActive="active">{{SpecialityServices}}</h1>
+    <div class="slider" reverse="true" style="--width: 300px;--height: 300px;--quantity: {{constants.length}};">
+      <div class="list">
+      <div class="item"  *ngFor="let item of constants; let i = index"  style="--position: {{i}}">
+        <div class="card mb-3" >
+          <div style="padding: 10px 10px 0px 10px;">
+        <img ngSrc="img/blog3.jpg" class="card-img-top" style="height: 200px; width: 280px; position: relative;border-radius: 2px;" alt="" fill>
+        </div>
+        <div class="card-body" style="padding-top: 0px;margin-top: -20px;position: relative;">
+          <button type="button" class="btn btn-danger" style="width: -webkit-fill-available;border-radius: 20px;"
+          routerLinkActive="active"
+              routerLink="/{{RautersConstants.specialityservices}}/{{item.key}}">{{item.title}}</button>
+        </div>
+      </div>
+    </div>
     </div>
 </div>
+  <!-- <div class="row" style="justify-content: center;">
+    <button type="button" class="btn btn-danger" style="width: auto;">Know More &#10151;</button>
+  </div>
+  </div> -->
 </div>
+

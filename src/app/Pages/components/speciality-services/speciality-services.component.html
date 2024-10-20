@@ -1,1 +1,30 @@
-<p>speciality-services works!</p>
+<!-- Start service -->
+<section class="services section" style="overflow: hidden;" id="servicesid">
+  <div class="row">
+    <div class="col-lg-12">
+      <img src="./img/slider01.jpg" class="img-fluid" style="max-height: 265px;width: 100%;">
+      <h1 class="primaryh1" routerLink="/{{RautersConstants.specialityservices}}" routerLinkActive="active">
+        {{specialityservices}}</h1>
+    </div>
+  </div>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-12" *ngFor="let item of Homepage.SpecialityServices; let i = index">
+      <div class="card mb-3">
+        <div style="padding: 10px 10px 0px 10px;">
+          <img ngSrc="img/blog3.jpg" class="card-img-top"
+            style="height: 200px; width: 100%; position: relative;border-radius: 2px;" alt="" fill>
+        </div>
+        <div class="card-body" style="padding-top: 0px;margin-top: -20px;position: relative;">
+          <button type="button" class="btn btn-danger" style="width: -webkit-fill-available;border-radius: 20px;"
+            routerLinkActive="active"
+            routerLink="/{{RautersConstants.specialityservices}}/{{item.key}}">{{item.title}}</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--/ End service -->

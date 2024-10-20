@@ -1,1 +1,81 @@
-/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --red: #DC3545;
+  --blue: #007BFF;
+  --white:white;
+}
+.bg-danger{
+background-color:var(--red) !important;
+}
+
+.primaybg{
+    background-color:var(--blue);
+}
+.Secondarybg {
+  background-color: var(--red);
+}
+
+.Primary-font-family {
+  font-family: 'Titillium Web', sans-serif;
+}
+.fontLarge {
+font-size: large !important;
+}
+.primaryh1 {
+  text-align: center;
+  margin: 0.5em 0 0.5em 0;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  padding: 15px 15px 15px 15px;
+  color: var(--blue);
+  box-shadow:
+    inset 0 0 0 1px rgba(53, 86, 129, 0.4),
+    inset 0 0 5px rgba(53, 86, 129, 0.5),
+    inset -285px 0 35px var(--white);
+  border-radius: 0 10px 0 10px;
+}
+
+
+p,li,button,h1,h2,h3,h4,h5,.primaryfont {
+font-family: 'Titillium Web', sans-serif;
+
+}
+.Secondaryh1 {
+  font-size: large;
+}
+
+@media screen and (max-width: 540px) {
+.primaryh1 {
+    text-align: center;
+    margin: 0.2em 0 0.2em 0;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 27px;
+    line-height: 33px;
+    padding: 10px 10px 10px 10px;
+    color: var(--blue);
+    box-shadow:
+      inset 0 0 0 1px rgba(53, 86, 129, 0.4),
+      inset 0 0 5px rgba(53, 86, 129, 0.5),
+      inset -285px 0 35px var(--white);
+    border-radius: 0 10px 0 10px;
+  }
+
+        .paddingheadingtop {
+          padding-top: 60px;
+        }
+}
+
+
+@media screen and (min-width: 541px) and (max-width: 985px) {
+  .paddingheadingtop {
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 985px){
+  .paddingheadingtop {
+    padding-top: 113px;
+  }
+}

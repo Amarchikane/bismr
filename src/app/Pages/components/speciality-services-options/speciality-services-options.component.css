@@ -1,0 +1,24 @@
+.note {
+  --mdb-note-padding: 10px;
+  --mdb-note-border-width: 6px;
+  --mdb-note-border-radius: 5px;
+  --mdb-note-strong-font-weight: 600;
+  padding: var(--mdb-note-padding);
+  border-left: var(--mdb-note-border-width) solid;
+  border-radius: var(--mdb-note-border-radius);
+}
+
+.note-secondary {
+  background-color: #e2eaf7;
+  color: var(--blue);
+}
+
+.headingstyle {
+  text-align: center;
+  margin: 0.5em 0 0.5em 0;
+  font-weight: 600;
+  font-size: 23px;
+  border-radius: 0 10px 0 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}

@@ -1,5 +1,6 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
+import { ScrollToTopService } from '../../../core/services/scroll-to-top.service';
 
 @Component({
   selector: 'app-appointment',
@@ -9,5 +10,7 @@ import { Component } from '@angular/core';
   styleUrl: './appointment.component.css'
 })
 export class AppointmentComponent {
+constructor(scrollToTopService: ScrollToTopService) {
 
+  }
 }

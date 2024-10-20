@@ -1,62 +1,13 @@
 <!-- Start service -->
 <section class="services section" style="overflow: hidden;">
+  <h1 class="primaryh1"  routerLink="/{{RautersConstants.sopportingServices}}" routerLinkActive="active">{{textheading.SupportingServices}}</h1>
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="section-title">
-          <h2>We Offer Different Services To Improve Your Health</h2>
-          <img ngSrc="img/section-img.png" alt="#" style="height: auto; width: auto; position: relative" fill>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="single-service"
-          style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
-          <i class="icofont icofont-prescription" style="font-size: 30px; color: #007bff;"></i>
-          <h4><a>General Treatment</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="single-service"
-          style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
-          <i class="icofont icofont-tooth" style="font-size: 30px; color: #007bff;"></i>
-          <h4><a>Teeth Whitening</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="single-service"
-          style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
-          <i class="icofont icofont-heart-alt" style="font-size: 30px; color: #007bff;"></i>
-          <h4><a href="service-details.html">Heart Surgery</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="single-service"
-          style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
-          <i class="icofont icofont-listening" style="font-size: 30px; color: #007bff;"></i>
-          <h4><a href="service-details.html">Ear Treatment</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="single-service"
-          style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
-          <i class="icofont icofont-eye-alt" style="font-size: 30px; color: #007bff;"></i>
-          <h4><a href="service-details.html">Vision Problems</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="single-service"
-          style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
-          <i class="icofont icofont-blood" style="font-size: 30px; color: #007bff;"></i>
-          <h4><a href="service-details.html">Blood Transfusion</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet.</p>
+      <div class="col-lg-4 col-md-6 col-12" *ngFor="let item of services; let i = index">
+        <div class="single-service" routerLink="/{{RautersConstants.sopportingServices}}/{{item.key}}"
+           style="background-color: var(--blue); padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);    margin-bottom: 10px; margin-top: 10px;">
+          <h4><a style="color: var(--white);">{{item.title}}</a></h4>
+          <p style="color: var(--white);height: 96px;overflow-x: auto;">{{item.discription}}</p>
         </div>
       </div>
     </div>

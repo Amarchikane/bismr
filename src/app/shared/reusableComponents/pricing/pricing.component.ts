@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollToTopService } from '../../../core/services/scroll-to-top.service';
 
 @Component({
   selector: 'app-pricing',
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './pricing.component.css'
 })
 export class PricingComponent {
+  constructor(scrollToTopService: ScrollToTopService) {
+
+  }
 
 }

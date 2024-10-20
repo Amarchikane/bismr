@@ -1,74 +1,93 @@
 
-<div class="sticky-bottom" id="myStickyElement">
+<!-- <div class="sticky-bottom" id="myStickyElement">
   <div class="scroll-left">
     <p>All government schemes are available. Affordable healthcare for everyone</p>
   </div>
-</div>
+</div> -->
 
 
 
-<div class="container" style="background-color: rgb(0, 200, 255);overflow: auto;">
+<div  style="background-color: var(--blue);overflow: auto;color: var(--white);">
+  <div class="row" style="background-color: var(--red);">
+    <div class="col-12 col-lg-7">
+      <h3 class="text-center mb-4" style="margin-bottom: 3px !important;">For Inquiries or Any Information</h3>
+    </div>
+    <div class="col-12 col-lg-4" style="    padding-right: 20px;    padding-left: 20px;">
+      <a href="tel:+917219590979" class="phone-number-button">
+        <button type="button" class="btn btn-outline-light"
+          style="padding-bottom: 0px;padding-top: 0px;margin-bottom: 5px;margin-top: 5px;    width: -webkit-fill-available;">
+          <span class="fs-5 primaryfont">
+           Call
+            7219590979
+          </span>
+        </button></a>
+    </div>
+  </div>
+  <div class="container" style="padding-top: 12px;">
   <footer class="py-1">
     <div class="row">
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
+          <div class="col-md-3 offset-md-1 mb-3">
+            <form>
+              <h5 class="Primary-font-family">{{heading.fulltitle}}</h5>
+              <!-- Facebook -->
+              <a data-mdb-ripple-init class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/people/Bismr-Global-Hospital/61564099422038/" role="button"><i
+                  class="fa fa-facebook-official" style="font-size: larger;"></i></a>
 
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
+              <!-- Google -->
+              <a data-mdb-ripple-init class="btn btn-primary" style="background-color: #dd4b39;" href="https://maps.app.goo.gl/T7R9GsBeZKDE7xnk6" role="button"><i
+                  class="fa fa-google" style="font-size: larger;"></i></a>
 
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
+              <!-- Instagram -->
+              <a data-mdb-ripple-init class="btn btn-primary" style="background-color: red;" href="https://www.instagram.com/bismr_global_hospital/" role="button">
+                <i class="fa fa-instagram" style="font-size: larger;"></i></a>
 
-      <div class="col-md-5 offset-md-1 mb-3">
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
-          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+              <!-- Linkedin -->
+              <a data-mdb-ripple-init class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/company/bismr-global-healthcare-multispeciality-hospital/?" role="button"><i
+                  class="fa fa-linkedin-square " style="font-size: larger;"></i></a>
+              <p>{{heading.BISMRaddress}}</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.5146375232875!2d73.86896481081388!3d18.460333782549135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb608d238e65%3A0xe4b47a269feb45b6!2sBISMR%20Global%20Healthcare%20Multispeciality%20Hospital!5e0!3m2!1sen!2sin!4v1728457536348!5m2!1sen!2sin"
+                  style="border:0;    width: -webkit-fill-available;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+            </form>
           </div>
-        </form>
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="Primary-font-family">{{heading.SupportingServices}}</h5>
+        <ul class="nav flex-column">
+            <li *ngFor="let item of Homepages.SupportingServices; let i = index" class="nav-item mb-2"><a class="nav-link p-0 " routerLinkActive="active"
+                routerLink="/{{RautersConstants.sopportingServices}}/{{item.key}}">{{item.title}}</a></li>
+        </ul>
       </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="Primary-font-family">{{heading.SuperSpeciality}}</h5>
+        <ul class="nav flex-column">
+            <ul class="nav flex-column">
+              <li *ngFor="let item of Homepages.SuperSpeciality; let i = index" class="nav-item mb-2"><a
+                  class="nav-link p-0 " routerLinkActive="active"
+                  routerLink="/{{RautersConstants.superspeciality}}/{{item.key}}">{{item.title}}</a></li>
+            </ul>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="Primary-font-family">{{heading.SpecialityServices}}</h5>
+        <ul class="nav flex-column">
+          <li *ngFor="let item of Homepages.SpecialityServices; let i = index" class="nav-item mb-2"><a
+              class="nav-link p-0 " routerLinkActive="active"
+              routerLink="/{{RautersConstants.specialityservices}}/{{item.key}}">{{item.title}}</a></li>
+        </ul>
+      </div>
+
+
     </div>
 
     <div class="d-flex flex-column flex-sm-row justify-content-between  border-top">
-      <p>© 2024 Company, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#twitter"></use>
-            </svg></a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#instagram"></use>
-            </svg></a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#facebook"></use>
-            </svg></a></li>
-      </ul>
+      <p>© Copyright 2024 BISMR Global Hospital, Pune. All rights reserved..</p>
     </div>
   </footer>
+  </div>
 </div>

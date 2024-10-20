@@ -1,1 +1,23 @@
-<p>sopporting-services works!</p>
+<!-- Start service -->
+<section class="services section" style="overflow: hidden;" id="servicesid">
+  <div class="row">
+    <div class="col-lg-12">
+      <img src="./img/slider01.jpg" class="img-fluid" style="max-height: 265px;width: 100%;">
+      <h1 class="primaryh1"  routerLink="/{{RautersConstants.sopportingServices}}" routerLinkActive="active">{{sopportingServices}}</h1>
+    </div>
+  </div>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12" *ngFor="let item of services; let i = index">
+        <div class="single-service" routerLink="/{{RautersConstants.sopportingServices}}/{{item.key}}"
+          style="background-color: var(--blue); padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);    margin-bottom: 10px; margin-top: 10px;">
+          <h4><a style="color: var(--white);">{{item.title}}</a></h4>
+          <p style="color: var(--white);height: 96px;overflow-x: auto;">{{item.discription}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--/ End service -->

@@ -1,25 +1,25 @@
 <section class="slider zoomIn-content">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+      <div>
+      <button type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
+        </div><div>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
         aria-label="Slide 2"></button>
+        </div><div>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
+        </div><div>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
     </div>
     <div class="carousel-inner ">
       <ng-container *ngFor="let slide of slides; let i = index">
         <div class="carousel-item" [class.active]="i === 0" [style.backgroundImage]="'url(' + slide.image + ')'" style="background-size: cover;">
           <div class="container">
             <div class="row align-items-center sliderh">
-              <div class="col-lg-7">
-                <h1>{{ slide.title }}</h1>
-                <div class="button">
-                  <a href="#" class="btn">{{ slide.button1Text }}</a>
-                  <a href="#" class="btn btn-primary">{{ slide.button2Text }}</a>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>

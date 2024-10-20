@@ -9,7 +9,7 @@
 
 .services .single-service i {
   font-size: 45px;
-  color: #1a76d1;
+  color: var(--blue);
   position: absolute;
   left: 0;
   -webkit-transition: all 0.4s ease;
@@ -30,7 +30,7 @@
 }
 
 .services .single-service h4 a:hover {
-  color: #1A76D1;
+  color: var(--blue);
 }
 
 .services .single-service p {
@@ -57,24 +57,7 @@
   margin-bottom: 20px;
 }
 
-.services-details-img blockquote {
-  font-size: 15px;
-  color: #4a6f8a;
-  background-color: #1a76d1;
-  padding: 30px 75px;
-  line-height: 26px;
-  position: relative;
-  margin-bottom: 20px;
-  color: #fff;
-}
 
-.services-details-img blockquote i {
-  position: absolute;
-  display: inline-block;
-  top: 20px;
-  left: 38px;
-  font-size: 32px;
-}
 
 .service-details-inner-left {
   background-image: url("/public/img/signup-bg.jpg");
@@ -99,7 +82,7 @@
   font-weight: 600;
   font-size: 30px;
   margin-bottom: 15px;
-  border-left: 3px solid #1a76d1;
+  border-left: 3px solid var(--blue);
   padding-left: 15px;
 }
 
@@ -114,3 +97,4 @@
 /*=========================
 	End service CSS
 ===========================*/
+

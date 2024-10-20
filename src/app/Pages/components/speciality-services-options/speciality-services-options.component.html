@@ -1,0 +1,44 @@
+<ng-container *ngIf="details">
+<div>
+  <img ngSrc="./img/slider3d2.jpg" class="img-fluid" style="max-height: 265px;width: 100%;    position: relative;" fill>
+  <h1 class="primaryh1">{{ SingleSpecialityServicesDetails.title }}</h1>
+</div>
+<div class="container" style="overflow: auto;">
+  <div class="row g-5">
+    <div class="col-md-3 d-none d-md-block">
+      <div class="position-sticky" style="top: 2rem;">
+        <div>
+          <h4 class=" primaryh1">Recent posts</h4>
+          <ul class="list-unstyled">
+            <li *ngFor="let item of Homepage.SpecialityServices; let i = index">
+              <button type="button" routerLink="/{{RautersConstants.specialityservices}}/{{item.key}}"
+                routerLinkActive="active" class="btn btn-outline-dark" style="width: -webkit-fill-available;">
+                <a class="dropdown-item Primary-font-family">{{item.title}}</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class=" note note-secondary mb-3 card" style="    padding: 0px;">
+        <div class="card-header" style="    background: var(--white);">
+          <h5 class="card-title headingstyle">OPD Timings</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Morning : 9:00AM TO 4:00 PM <br>
+            Afternoon : 6:00PM TO 9:00 PM
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1 primaryh1"> {{ SingleSpecialityServicesDetails.title }}</h2>
+      </article>
+      <!-- <p>{{SingleSpecialityServicesDetails.discription}}</p> -->
+    </div>
+
+  </div>
+</div>
+</ng-container>

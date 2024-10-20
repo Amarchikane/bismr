@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollToTopService } from '../../../core/services/scroll-to-top.service';
 
 @Component({
   selector: 'app-feautes',
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './feautes.component.css'
 })
 export class FeautesComponent {
+  constructor(scrollToTopService: ScrollToTopService) {
+
+  }
 }
 

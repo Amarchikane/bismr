@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollToTopService } from '../../../core/services/scroll-to-top.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './portfolio.component.css'
 })
 export class PortfolioComponent {
+constructor(scrollToTopService: ScrollToTopService) {
 
+  }
 }

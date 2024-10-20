@@ -2,12 +2,40 @@
     color: white;
   }
 
-  .nav-item>a:hover {
+  .nav-item>a:hover  {
     color: black;
+
   }
 
 .logoheading {
   height: 60px;
   width: 60px;
   position: relative
+}
+
+.active {
+  background-color: var(--white);
+}
+
+@media screen and (max-width: 540px) {
+.max_width_heading {
+    width: -webkit-fill-available;
+  }
+    .width_headingposition{
+      /* position: absolute;
+      left: 80%;
+      top: -54px; */
+    }
+    .hedpadding {
+      padding-bottom: 5px;
+      padding-top: 5px;
+      padding-left: 20px;
+    }
+    .collapse.show  .width_headingposition{
+
+            position: absolute;
+            left: 40%;
+            top: -54px;
+
+     }
 }

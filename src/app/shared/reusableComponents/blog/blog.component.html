@@ -1,57 +1,26 @@
 <!-- Start Blog Area -->
-<section class="blog section zoomIn-content" id="blog" style="background-color: #121212; color: #fff;">
-  <div class="container ">
+<section class="blog section" id="blog" style="overflow: hidden;">
+  <div>
     <div class="row">
       <div class="col-lg-12">
         <div class="section-title">
-          <h2>Keep up with Our Most Recent Medical News.</h2>
-          <img ngSrc="img/section-img.png" style="height: auto; width: auto; position: relative" fill>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+          <h2 class="primaryh1">Blogs & Videos</h2>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="slider" reverse="true" style="
-                          --width: 400px;
-                          --height: 500px;
-                          --quantity: 3;
+                          --width: 300px;
+                          --height: 320px;
+                          --quantity: 5;
                       ">
         <div class="list">
-          <div class="item" style="--position: 1">
-            <div class="card mb-3">
-              <img ngSrc="img/blog1.jpg" class="card-img-top" style="height: auto; width: auto; position: relative" fill>
-              <div class="card-body">
-                <h5 class="card-title">We have announced our new product.</h5>
-                <p class="card-text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt sed do incididunt sed.</p>
-                <p class="card-text"><small class="text-muted">22 Aug, 2020</small></p>
-                <a href="blog-single.html" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="item" style="--position: 2">
-            <div class="card mb-3">
-              <img ngSrc="img/blog3.jpg" class="card-img-top" alt="#" style="height: auto; width: auto; position: relative"
-                fill>
-              <div class="card-body">
-                <h5 class="card-title">We provide highly business soliutions.</h5>
-                <p class="card-text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt sed do incididunt sed.</p>
-                <p class="card-text"><small class="text-muted">05 Jan, 2020</small></p>
-                <a href="blog-single.html" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="item" style="--position: 3">
-            <div class="card mb-3">
-              <img ngSrc="img/blog2.jpg" class="card-img-top" alt="#" style="height: auto; width: auto; position: relative"
-                fill>
-              <div class="card-body">
-                <h5 class="card-title">Top five way for solving teeth problems.</h5>
-                <p class="card-text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt sed do incididunt sed.</p>
-                <p class="card-text"><small class="text-muted">15 Jul, 2020</small></p>
-                <a href="blog-single.html" class="btn btn-primary">Read More</a>
+          <div class="item" *ngFor="let item of blogsJson.blogs; let i = index" style="--position: {{i+1}}">
+            <div class="card mb-3" >
+              <img ngSrc={{item.img}} class="card-img-top" style="height: 220px; width: auto; position: relative" fill>
+              <div class="card-body" style="padding: 5px;">
+                <button type="button" class="btn btn-danger" style="width: -webkit-fill-available;">
+                <h5 class="card-title"style="text-align: center;margin-bottom: 0px;">{{item.title}}</h5></button>
               </div>
             </div>
           </div>
@@ -61,4 +30,5 @@
   </div>
 </section>
 <!-- End Blog Area -->
+
 

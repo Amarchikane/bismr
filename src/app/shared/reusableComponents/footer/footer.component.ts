@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Homepage } from '../../../core/constants/constsnts';
+import { textheading } from '../../../core/constants/textheading';
+import { RautersConstants } from '../../../core/constants/RauterConstants';
+import { ScrollToTopService } from '../../../core/services/scroll-to-top.service';
 
 @Component({
   selector: 'app-footer',
@@ -6,6 +10,14 @@ import { Component } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
+  Homepages = Homepage;
+  heading = textheading;
+  RautersConstants = RautersConstants;
+  constructor(scrollToTopService: ScrollToTopService) {
+
+  }
+    ngOnInit() {
+  }
 
 }

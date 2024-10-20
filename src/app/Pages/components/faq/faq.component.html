@@ -1,0 +1,21 @@
+<img src="./img/IMG_2902.jpg" class="img-fluid" style="max-height: 265px;width: 100%;">
+
+<div class="container">
+  <h1 class="primaryh1">Frequently Asked Questions</h1>
+  <div class="accordion" *ngFor="let item of faq; let i = index" id="accordionPanelsStayOpen{{i}}">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-heading{{i}}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          attr.data-bs-target="#panelsStayOpen-collapse{{i}}" aria-expanded="false" attr.aria-controls="panelsStayOpen-collapse{{i}}">
+          <strong>{{item.question}}</strong>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapse{{i}}" class="accordion-collapse collapse"  
+        aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          {{item.Ans}}
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>

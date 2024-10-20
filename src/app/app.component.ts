@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {  RouterOutlet } from '@angular/router';
 import { FooterModule } from './shared/Modules/footer/footer.module';
 import { HeaderModule } from './shared/Modules/header/header.module';
+import { ScrollToTopService } from './core/services/scroll-to-top.service';
 
 @Component({
   selector: 'app-root',
@@ -12,4 +13,7 @@ import { HeaderModule } from './shared/Modules/header/header.module';
 })
 export class AppComponent {
   title = 'bismr';
+  constructor(scrollToTopService: ScrollToTopService) {
+
+  }
 }

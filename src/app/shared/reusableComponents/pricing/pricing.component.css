@@ -23,7 +23,7 @@
 
 .pricing-table .single-table .icon i {
   font-size: 65px;
-  color: #1a76d1;
+  color: var(--blue);
 }
 
 .pricing-table .single-table .title {
@@ -36,7 +36,7 @@
 .pricing-table .single-table .amount {
   font-size: 36px;
   font-weight: 600;
-  color: #1a76d1;
+  color: var(--blue);
 }
 
 .pricing-table .single-table .amount span {
@@ -80,8 +80,8 @@
   width: 16px;
   line-height: 16px;
   text-align: center;
-  color: #fff;
-  background: #1a76d1;
+  color: var(--white);
+  background: var(--blue);
   border-radius: 100%;
   padding-left: 1px;
 }
@@ -94,7 +94,7 @@
 .pricing-table .btn {
   padding: 12px 25px;
   width: 100%;
-  color: #fff;
+  color: var(--white);
 }
 
 .pricing-table .btn:before {
@@ -102,7 +102,7 @@
 }
 
 .pricing-table .btn:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 .pricing-table .btn i {

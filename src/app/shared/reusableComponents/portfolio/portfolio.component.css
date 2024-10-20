@@ -38,7 +38,7 @@
 .portfolio .single-pf .btn {
   color: #1a76d1;
   z-index: 3;
-  background: #fff;
+  background: var(--white);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -66,7 +66,7 @@
 }
 
 .portfolio .single-pf .btn:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 .portfolio .owl-nav {
@@ -74,7 +74,7 @@
 }
 
 /* Slider Nav */
-.pf-details .image-slider .owl-nav {
+  .owl-nav {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -82,12 +82,12 @@
   margin-top: -25px;
 }
 
-.pf-details .image-slider .owl-carousel .owl-nav div {
+  .owl-carousel .owl-nav div {
   height: 50px;
   width: 50px;
   line-height: 45px;
-  background: #fff;
-  color: #1A76D1;
+  background: var(--white);
+  color: var(--blue);
   position: absolute;
   margin: 0;
   border-radius: 100%;
@@ -99,29 +99,27 @@
   box-shadow: 0px 0px 10px #0000001a;
 }
 
-.pf-details .image-slider .owl-carousel .owl-nav div:hover {
-  color: #fff;
-  background: #1A76D1;
+  .owl-carousel .owl-nav div:hover {
+  color: var(--white);
+  background: var(--blue);
 }
 
-.pf-details .image-slider .owl-carousel .owl-controls .owl-nav .owl-prev {
+  .owl-carousel .owl-controls .owl-nav .owl-prev {
   left: 20px;
 }
 
-.pf-details .image-slider .owl-carousel .owl-controls .owl-nav .owl-next {
+  .owl-carousel .owl-controls .owl-nav .owl-next {
   right: 20px;
 }
 
-.pf-details .image-slider {
-  border-radius: 8px 8px 0 0;
-}
 
-.pf-details .image-slider img {
+
+  img {
   height: 100%;
   width: 100%;
 }
 
-.pf-details .date {
+ .date {
   background: #1a76d1;
   display: block;
   padding: 20px;
@@ -132,60 +130,58 @@
   margin-top: -1px;
 }
 
-.pf-details .date ul li {
+ .date ul li {
   font-size: 16px;
-  color: #fff;
+  color: var(--white);
   display: inline-block;
   margin-right: 60px;
 }
 
-.pf-details .date ul li:last-child {
+ .date ul li:last-child {
   margin: 0;
 }
 
-.pf-details .date ul li span {
+ .date ul li span {
   font-weight: 500;
   display: inline-block;
   margin-right: 5px;
 }
 
 
-.pf-details .body-text h3 {
+  h3 {
   font-size: 30px;
   font-weight: 600;
   color: #333;
   margin-top: 40px;
 }
 
-.pf-details .body-text p {
+  p {
   margin-top: 20px;
 }
 
-.pf-details .body-text .share {
-  margin-top: 40px;
-}
 
-.pf-details .body-text .share h4 {
+
+   h4 {
   font-size: 15px;
   font-weight: 500;
   display: inline-block;
 }
 
-.pf-details .body-text .share ul {
+   ul {
   display: inline-block;
   margin-left: 12px;
 }
 
-.pf-details .body-text .share ul li {
+   ul li {
   display: inline-block;
   margin-right: 10px;
 }
 
-.pf-details .body-text .share ul li:last-child {
+   ul li:last-child {
   margin-right: 0;
 }
 
-.pf-details .body-text .share ul li a {
+   ul li a {
   height: 35px;
   width: 35px;
   line-height: 35px;
@@ -196,10 +192,10 @@
   border-radius: 50%;
 }
 
-.pf-details .body-text .share ul li a:hover {
-  color: #fff;
+   ul li a:hover {
+  color: var(--white);
   border-color: transparent;
-  background: #1A76D1;
+  background: var(--blue);
 }
 
 /*==========================

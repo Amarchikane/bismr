@@ -1,0 +1,83 @@
+<!-- Start Why choose -->
+<section class="why-choose section  " style="overflow-x: hidden;">
+  <div style="overflow: auto;">
+    <img ngSrc="./img/slider3d2.jpg" class="img-fluid" style="max-height: 265px;width: 100%;    position: relative;" fill>
+    <h1 class="primaryh1">Government Schemes and Organizations</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6 col-12">
+        <!-- Start Choose Rights -->
+        <div class="choose-right" style="background-image: url(./img/IMG_2890.jpg);min-height: 250px;">
+        </div>
+        <!-- End Choose Rights -->
+      </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Choose Left -->
+            <div class="choose-left">
+
+              <div class="row">
+                <div class="col">
+                  <ul class="list" style="list-style-type: none;">
+                    <li *ngFor="let item of Schems.detals; let i = index"><i class="fa fa-caret-right" ></i>{{item.title}}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End Choose Left -->
+          </div>
+            <div class="col-lg-12 col-12">
+              <h1 class="primaryh1">Government Schemes and Organizations</h1>
+            </div>
+              <div class="col-lg-3 col-12">
+                <div class="choose-left">
+                  <div class="row">
+                    <div class="col">
+                      <ul class="list" style="list-style-type: none;">
+                        <li *ngFor="let item of Schems.comapny; let i = index"><i class="fa fa-caret-right"></i>{{item.title}}</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Choose Left -->
+              </div>
+              <div class="col-lg-3 col-12">
+                <div class="choose-left">
+                  <div class="row">
+                    <div class="col">
+                      <ul class="list" style="list-style-type: none;">
+                        <li *ngFor="let item of Schems.services1; let i = index"><i class="fa fa-caret-right"></i>{{item.title}}</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Choose Left -->
+              </div>
+                <div class="col-lg-3 col-12">
+                  <div class="choose-left">
+                    <div class="row">
+                      <div class="col">
+                        <ul class="list" style="list-style-type: none;">
+                          <li *ngFor="let item of Schems.services2; let i = index"><i class="fa fa-caret-right"></i>{{item.title}}</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Choose Left -->
+                </div><div class="col-lg-3 col-12">
+                  <div class="choose-left">
+                    <div class="row">
+                      <div class="col">
+                        <ul class="list" style="list-style-type: none;">
+                          <li *ngFor="let item of Schems.service3; let i = index"><i class="fa fa-caret-right"></i>{{item.title}}</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Choose Left -->
+                </div>
+    </div>
+  </div>
+</section>
+<!--/ End Why choose -->

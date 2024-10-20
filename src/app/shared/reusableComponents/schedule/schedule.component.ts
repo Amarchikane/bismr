@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollToTopService } from '../../../core/services/scroll-to-top.service';
 
 @Component({
   selector: 'app-schedule',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './schedule.component.css'
 })
 export class ScheduleComponent {
+constructor(scrollToTopService: ScrollToTopService) {
 
+  }
 }

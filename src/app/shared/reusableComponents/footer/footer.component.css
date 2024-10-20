@@ -35,8 +35,12 @@
   bottom: 6;
   left: 0;
   right: 0;
-  background-color: #fff;
+  background-color: var(--white);
   /* Adjust padding as needed */
   z-index: 1000;
   /* Ensure it appears above other elements */
 }
+    .nav-link {
+      color: var(--white);
+    }
+
